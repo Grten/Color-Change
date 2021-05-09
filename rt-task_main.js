@@ -57,7 +57,7 @@ var fixation = {
 var test = {
     type: "image-keyboard-response",
     stimulus: jsPsych.timelineVariable('stimulus'),
-    choices: ['f', 'j'],
+    choices: ['space'],
     data: jsPsych.timelineVariable('data'),
     on_finish: function (data) {
         data.correct = data.key_press == jsPsych.pluginAPI.convertKeyCharacterToKeyCode(data.correct_response);
