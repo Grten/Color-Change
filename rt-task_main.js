@@ -30,14 +30,14 @@ var test_stimuli = [{
         stimulus: repo_site + "img/blue.png", // Change 3: Adding `repo_site` in `test_stimuli`
         data: {
             test_part: 'test',
-            correct_response: ALL_KEYS
+            correct_response: jsPsych.ALL_KEYS
         }
     },
     {
         stimulus: repo_site + "img/orange.png", // Change 3: Adding `repo_site` in `test_stimuli`
         data: {
             test_part: 'test',
-            correct_response: ALL_KEYS
+            correct_response: jsPsych.ALL_KEYS
         }
     }
 ];
@@ -57,7 +57,7 @@ var fixation = {
 var test = {
     type: "image-keyboard-response",
     stimulus: jsPsych.timelineVariable('stimulus'),
-    choices: [ALL_KEYS],
+    choices: [jsPsych.ALL_KEYS],
     data: jsPsych.timelineVariable('data'),
     on_finish: function (data) {
         data.correct = data.key_press == jsPsych.pluginAPI.convertKeyCharacterToKeyCode(data.correct_response);
