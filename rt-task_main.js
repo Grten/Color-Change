@@ -1,7 +1,7 @@
 /* Change 1: Adding the image hosting site */
 // define the site that hosts stimuli images
 // usually https://<your-github-username>.github.io/<your-experiment-name>/
-var repo_site = "https://kywch.github.io/Simple-RT-Task/"; 
+var repo_site = "https://Grten.github.io/Color-Change/"; 
 
 /* create timeline */
 var timeline = [];
