@@ -74,9 +74,7 @@ timeline.push(test_procedure);
 
 /* define debrief */
 
-var debrief_block = {
-    type: "html-keyboard-response",
-    stimulus: function () {
+
 
         var trials = jsPsych.data.get().filter({
             test_part: 'test'
