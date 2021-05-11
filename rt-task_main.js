@@ -17,7 +17,7 @@ timeline.push(welcome_block);
 var instructions = {
     type: "html-keyboard-response",
     stimulus: "<p>In this experiment, a Colour will appear in the center " +
-        "of the screen.</p><p>You Click The Spacebar as fast as you can " +
+        "of the screen.</p><p>You Click Any Key as fast as you can " +
         "</div>" +
         "<p>Press any key to begin.</p>",
     post_trial_gap: 2000
