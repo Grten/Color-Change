@@ -30,7 +30,7 @@ var test_stimuli = [{
         stimulus: repo_site + "img/blue.png", // Change 3: Adding `repo_site` in `test_stimuli`
         data: {
             test_part: 'test',
-            correct_response: ' '
+            correct_response: 'G'
         }
     },
     {
@@ -82,7 +82,7 @@ var debrief_block = {
             test_part: 'test'
         });
         var correct_trials = trials.filter({
-            correct: true
+            correct: false
         });
         var accuracy = Math.round(correct_trials.count() / trials.count() * 100);
         var rt = Math.round(correct_trials.select('rt').mean());
