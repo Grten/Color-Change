@@ -54,6 +54,7 @@ var fixation = {
     }
 }
 
+
 var test = {
     type: "image-keyboard-response",
     stimulus: jsPsych.timelineVariable('stimulus'),
@@ -86,7 +87,8 @@ var debrief_block = {
         });
         var accuracy = Math.round(correct_trials.count() / trials.count() * 100);
         var rt = Math.round(correct_trials.select('rt').mean());
-
+        if ('rt' > 0)
+            'rt' = 1000
         return "<p>You responded correctly on " + accuracy + "% of the trials.</p>" +
             "<p>Your average response time was " + rt + "ms.</p>" +
             "<p>Press any key to complete the experiment. Thank you!</p>";
