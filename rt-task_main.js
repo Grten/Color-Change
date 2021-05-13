@@ -41,6 +41,34 @@ var test_stimuli = [{
         }
     },
     {
+        stimulus: repo_site + "img/yellow.png", // Change 3: Adding `repo_site` in `test_stimuli`
+        data: {
+            test_part: 'test',
+            correct_response: ' '
+        }
+    },   
+    {
+        stimulus: repo_site + "img/black.png", // Change 3: Adding `repo_site` in `test_stimuli`
+        data: {
+            test_part: 'test',
+            correct_response: ' '
+        }
+    },                    
+    {
+        stimulus: repo_site + "img/purple.png", // Change 3: Adding `repo_site` in `test_stimuli`
+        data: {
+            test_part: 'test',
+            correct_response: ' '
+        }
+    },                    
+    {
+        stimulus: repo_site + "img/green.png", // Change 3: Adding `repo_site` in `test_stimuli`
+        data: {
+            test_part: 'test',
+            correct_response: ' '
+        }
+    },                    
+    {
         stimulus: repo_site + "img/red.png", // Change 3: Adding `repo_site` in `test_stimuli`
         data: {
             test_part: 'test',
@@ -54,7 +82,7 @@ var fixation = {
     stimulus: '<div style="font-size:60px;">+</div>',
     choices: jsPsych.NO_KEYS,
     trial_duration: function () {
-        return jsPsych.randomization.sampleWithoutReplacement([250, 500, 750, 1000, 1250, 1500, 1750, 2000], 1)[0];
+        return jsPsych.randomization.sampleWithoutReplacement([500, 750, 1000, 1250, 1500, 1750, 2000], 1)[0];
     },
     data: {
         test_part: 'fixation'
