@@ -20,7 +20,7 @@ var instructions = {
         "of the screen.</p><p>You Click Any Key as fast as you can " +
         "</div>" +
         "<p>Press any key to begin.</p>",
-    post_trial_gap: 2000
+    post_trial_gap: 1000
 };
 timeline.push(instructions);
 
