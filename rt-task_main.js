@@ -75,14 +75,6 @@ timeline.push(test_procedure);
 
 /* define debrief */
 
-var thank_you_text = {
-    type: "html-keyboard-response",
-    stimulus: "Thank You For Doing The Test" +
-        "Press Any Key To Continue",
-    post_trial_gap: 2000
-};
-timeline.push(thank_you_text);
-
 var debrief_block = {
     type: "html-keyboard-response",
     stimulus: function () {
