@@ -39,6 +39,13 @@ var test_stimuli = [{
             test_part: 'test',
             correct_response: ' '
         }
+    },
+    {
+        stimulus: repo_site + "img/red.png", // Change 3: Adding `repo_site` in `test_stimuli`
+        data: {
+            test_part: 'test',
+            correct_response: ' '
+        }
     }
 ];
 
