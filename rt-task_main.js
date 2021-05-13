@@ -41,35 +41,35 @@ var test_stimuli = [{
         }
     },
     {
-        stimulus: repo_site + "img/yellow.png", // Change 3: Adding `repo_site` in `test_stimuli`
+        stimulus: repo_site + "img/yellow.jpg", // Change 3: Adding `repo_site` in `test_stimuli`
         data: {
             test_part: 'test',
             correct_response: ' '
         }
     },   
     {
-        stimulus: repo_site + "img/black.png", // Change 3: Adding `repo_site` in `test_stimuli`
+        stimulus: repo_site + "img/black.jpg", // Change 3: Adding `repo_site` in `test_stimuli`
         data: {
             test_part: 'test',
             correct_response: ' '
         }
     },                    
     {
-        stimulus: repo_site + "img/purple.png", // Change 3: Adding `repo_site` in `test_stimuli`
+        stimulus: repo_site + "img/purple.jpg", // Change 3: Adding `repo_site` in `test_stimuli`
         data: {
             test_part: 'test',
             correct_response: ' '
         }
     },                    
     {
-        stimulus: repo_site + "img/green.png", // Change 3: Adding `repo_site` in `test_stimuli`
+        stimulus: repo_site + "img/green.jpg", // Change 3: Adding `repo_site` in `test_stimuli`
         data: {
             test_part: 'test',
             correct_response: ' '
         }
     },                    
     {
-        stimulus: repo_site + "img/red.png", // Change 3: Adding `repo_site` in `test_stimuli`
+        stimulus: repo_site + "img/red.jpg", // Change 3: Adding `repo_site` in `test_stimuli`
         data: {
             test_part: 'test',
             correct_response: ' '
