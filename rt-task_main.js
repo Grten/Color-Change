@@ -110,6 +110,10 @@ timeline.push(test_procedure);
 
 /* define debrief */
 
+var thank_you_text = {
+    type: "html-keyboard-response",
+    "<p>Thank You For Partaking In This Experiment</p>"
+
 var debrief_block = {
     type: "html-keyboard-response",
     stimulus: function () {
