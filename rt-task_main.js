@@ -113,7 +113,7 @@ timeline.push(test_procedure);
 var thank_you_text = {
     type: "html-keyboard-response",
     "<p>Thank You For Partaking In This Experiment</p>"
-}
+};
 
 timeline.push(thank_you_text)
 
